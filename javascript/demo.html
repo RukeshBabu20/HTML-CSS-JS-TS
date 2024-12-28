@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Class</title>
+  </head>
+  <body>
+    <h1 id="test">My First Javascript Class</h1>
+    <div id="status">Offline</div>
+
+    <button type="button" onClick="myFunction()">Change Status</button>
+
+    <script>
+      document.getElementById("test").innerHTML = "This is my first js code";
+
+      function myFunction() {
+        document.getElementById("status").innerHTML = "Online";
+      }
+    </script>
+  </body>
+</html>
