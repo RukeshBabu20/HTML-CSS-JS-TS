@@ -12,6 +12,8 @@ console.log(str.trim().length)
 console.log(str.toUpperCase())
 console.log(str.toLowerCase())
 
+console.log(str.includes('H'));
+
 console.log(str.charAt(0))
 
 console.log(str.indexOf('l'))

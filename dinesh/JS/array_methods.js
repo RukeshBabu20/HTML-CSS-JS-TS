@@ -17,7 +17,7 @@ person.pop();
 person.shift();
 
 // splice and slice
-person.splice(3, 2) // start index, delete count, adding elements ( multiple )
+person.splice(3, 2) // start index, delete count, adding elements ( multiple  and optional)
 // console.log(person.slice(3))
 // console.log(person)
 
